@@ -1,43 +1,40 @@
-**Aim Trainer**
+# Aim Trainer
 
-Aim Trainer is a real-time aim training application built with Python and Pygame, designed to simulate fast-paced target acquisition while capturing meaningful performance metrics. The project emphasizes accuracy tracking, reaction consistency, and session-level analytics, serving as a foundation for data-driven evaluation and future AI-based enhancements.
+## Project Overview
+A real-time aim training application built using Python and Pygame, designed to simulate fast-paced target acquisition while collecting meaningful performance metrics. The project emphasizes accuracy tracking, reaction consistency, and session-level analytics, serving as a foundation for data-driven evaluation and future AI-based enhancements.
 
-**Features**
+---
 
-Real-time gameplay loop running at 60 FPS
+## Tech Stack
+- Python  
+- Pygame  
 
-Dynamic target spawning with hit and miss detection
+---
 
-Lives-based scoring system with controlled difficulty
+## Features
+- Real-time gameplay loop running at 60 FPS  
+- Dynamic target spawning with hit and miss detection  
+- Lives-based scoring system with controlled difficulty  
+- Post-game analytics screen displaying:
+  - Accuracy percentage  
+  - Targets per second  
+  - Total hits  
+  - Session duration  
 
-Post-game analytics dashboard displaying:
+---
 
-Accuracy percentage
+## Performance & Analytics
+The application tracks real-time performance metrics during gameplay and summarizes them at the end of each session. These metrics are structured to mirror evaluation pipelines used in machine learning systems, enabling extensions such as adaptive difficulty and performance-based feedback.
 
-Targets per second
+---
 
-Total hits and session duration
+## Project Focus
+This project goes beyond core gameplay mechanics by emphasizing metric computation, session-level analysis, and feedback-driven design. It demonstrates how interactive systems can generate structured performance data suitable for ML-style evaluation and experimentation.
 
-Modular architecture for easy extension and experimentation
+---
 
-**Project Focus**
-
-Beyond gameplay, Aim Trainer prioritizes performance measurement and feedback, mirroring evaluation pipelines used in machine learning systems. The collected metrics can be extended toward adaptive difficulty scaling, player modeling, or AI-assisted performance analysis, aligning the project with Generative AI and Computer Vision workflows.
-
-**Tech Stack**
-
-Language: Python
-
-Framework: Pygame
-
-Concepts: Real-time systems, event-driven programming, performance analytics
-
-**Future Improvements**
-
-Adaptive difficulty using ML-based performance modeling
-
-AI-driven feedback and training recommendations
-
-Computer vision–based aim tracking and gesture analysis
-
-Persistent performance history and trend analysis
+## Future Enhancements
+- Adaptive difficulty using ML-based performance modeling  
+- AI-driven training feedback and recommendations  
+- Computer vision–based aim tracking and gesture analysis  
+- Persistent performance history and trend visualization  
